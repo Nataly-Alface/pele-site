@@ -1,0 +1,100 @@
+body{background: #ddd;
+  font-family: Arial;
+  font-weight: normal;
+  size: auto;
+}
+p{
+  text-indent: 10px;
+}
+
+h1{
+  text-align: center;
+  color: olive
+
+}
+a{
+  text-align: left;
+}
+a:visited {
+  text-decoration: blueviolet ;
+  color: olive ;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkolivegreen;
+}
+a:active {
+  text-decoration: underline;
+}
+
+p{
+  background: #555555 ;
+  color: white;
+  padding: 10px;
+}
+
+iframe{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.carousel, ul{
+  height: 300px;
+  padding-bottom: 20px;
+
+}
+.carousel{
+  position: absolute ;
+  height: 400px;
+  width: 1200px;
+  overflow:hidden;
+  margin-left: 180px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+.carousel li{
+  display: inline-block;
+  height: 300px;
+  float:left;
+  position:relative;
+
+  width:600px;
+}
+.carousel ul{
+  position: absolute ;
+  left: 0;
+  top: -15px;
+  width:9000px;
+  list-style: none;
+  padding-bottom : 500px;
+  margin-left: -50px;
+  transition: left .3s linear;
+}
+.carousel-container{
+  margin: 0px 0px;
+  padding: 0;
+  width:500px;
+  height: 350px;
+}
+.carousel-container img{
+  width:700px;
+
+  height: 400px;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
+}
+.carousel ul{
+  animation: slide-animation 15s infinite;
+}
+.carousel ul:hover{
+  animation-play-state: paused;
+}
+@keyframes  slide-animation {
+  20%{left:0}
+  25%{left: -600px}
+  45%{left: -600px}
+  50%{left: -1200px}
+  70%{left: -1800px}
+  75%{left: -1800px}
+  100%{left:0}
+}
