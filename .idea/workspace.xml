@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64bfede5-fb6f-484d-830d-09d0a7a93468" name="Default Changelist" comment="" />
+    <list default="true" id="64bfede5-fb6f-484d-830d-09d0a7a93468" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/PeleSite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +46,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -50,11 +54,15 @@
               <item name="PeleSite" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Programming\WEB_Site\PeleSite" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="PeleSite" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Programming\WEB_Site\PeleSite" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,11 +104,12 @@
       <workItem from="1554323156692" duration="221000" />
       <workItem from="1554323394293" duration="1385000" />
       <workItem from="1567251996439" duration="1800000" />
+      <workItem from="1567257421044" duration="814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3406000" />
+    <option name="totallyTimeSpent" value="4220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -125,9 +134,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32896653" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992658" visible="true" weight="0.40756914" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49853158" visible="true" weight="0.67976713" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5007342" side_tool="true" visible="true" weight="0.40756914" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014684" side_tool="true" weight="0.40756914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -157,6 +166,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
